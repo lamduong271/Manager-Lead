@@ -1,14 +1,12 @@
-import React, { Fragment } from 'react';
-import Form from './Form';
-import Lead from './Lead';
-
+import React, { Fragment } from "react";
+import Form from "./Form";
+import Leads from "./Leads";
 
 export default function Dashboard() {
-    return (
-        <div>
-            <Form/>
-            <Lead/>
-        </div>
-    )
+  return (
+    <Fragment>
+      <Form />
+      <Leads />
+    </Fragment>
+  );
 }
-
